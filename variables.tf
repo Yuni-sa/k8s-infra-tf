@@ -13,3 +13,8 @@ variable "kube-config-path" {
     type = string
     default = "~/.kube/config"
 }
+
+variable "argocd-namespace" {
+  type = string
+  default = "argocd"
+}

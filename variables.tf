@@ -18,3 +18,8 @@ variable "argocd-namespace" {
   type = string
   default = "argocd"
 }
+
+variable "otterize-namespace" {
+  type = string
+  default = "otterize-system"
+}
